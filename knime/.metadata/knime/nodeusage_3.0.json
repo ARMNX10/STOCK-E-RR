@@ -1,0 +1,174 @@
+{
+    "version": "5.5.0.v202506251332",
+    "created": "2025-07-12 09:06",
+    "nodestats": {
+        "nodes": [
+            {
+                "id": "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory",
+                "nodename": "CSV Reader",
+                "nrexecs": 4,
+                "nrfails": 0,
+                "exectime": 174,
+                "nrcreated": 1,
+                "nrsettingsChanged": 6,
+                "successor": "org.knime.base.node.stats.dataexplorer.DataExplorerNodeFactory",
+                "successornodename": "Data Explorer"
+            },
+            {
+                "id": "org.knime.base.node.stats.dataexplorer.DataExplorerNodeFactory",
+                "nodename": "Data Explorer",
+                "nrexecs": 8,
+                "nrfails": 0,
+                "exectime": 326,
+                "nrcreated": 2,
+                "nrsettingsChanged": 3,
+                "successor": "org.knime.base.node.preproc.partition.PartitionNodeFactory",
+                "successornodename": "Table Partitioner"
+            },
+            {
+                "id": "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory",
+                "nodename": "Column Filter",
+                "nrexecs": 5,
+                "nrfails": 0,
+                "exectime": 5,
+                "nrcreated": 1,
+                "nrsettingsChanged": 4,
+                "successor": "org.knime.base.node.stats.dataexplorer.DataExplorerNodeFactory",
+                "successornodename": "Data Explorer"
+            },
+            {
+                "id": "org.knime.base.node.preproc.partition.PartitionNodeFactory",
+                "nodename": "Table Partitioner",
+                "nrexecs": 4,
+                "nrfails": 0,
+                "exectime": 99,
+                "nrcreated": 1,
+                "nrsettingsChanged": 0,
+                "successor": "org.knime.xgboost.base.nodes.predictor.XGBClassificationPredictorNodeFactory",
+                "successornodename": "XGBoost Predictor"
+            },
+            {
+                "id": "org.knime.base.node.mine.regression.logistic.learner4.LogRegLearnerNodeFactory4",
+                "nodename": "Logistic Regression Learner",
+                "nrexecs": 5,
+                "nrfails": 0,
+                "exectime": 1506,
+                "nrcreated": 1,
+                "nrsettingsChanged": 5,
+                "successor": "org.knime.base.node.mine.regression.logistic.predictor.LogisticRegressionPredictorNodeFactory",
+                "successornodename": "Logistic Regression Predictor"
+            },
+            {
+                "id": "org.knime.base.node.mine.regression.logistic.predictor.LogisticRegressionPredictorNodeFactory",
+                "nodename": "Logistic Regression Predictor",
+                "nrexecs": 4,
+                "nrfails": 0,
+                "exectime": 484,
+                "nrcreated": 1,
+                "nrsettingsChanged": 1,
+                "successor": "org.knime.js.base.node.scorer.ScorerNodeFactory",
+                "successornodename": "Scorer (JavaScript)"
+            },
+            {
+                "id": "org.knime.js.base.node.scorer.ScorerNodeFactory",
+                "nodename": "Scorer (JavaScript)",
+                "nrexecs": 17,
+                "nrfails": 0,
+                "exectime": 146,
+                "nrcreated": 4,
+                "nrsettingsChanged": 4,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.mine.treeensemble2.node.randomforest.learner.classification.RandomForestClassificationLearnerNodeFactory2",
+                "nodename": "Random Forest Learner",
+                "nrexecs": 4,
+                "nrfails": 0,
+                "exectime": 23234,
+                "nrcreated": 1,
+                "nrsettingsChanged": 1,
+                "successor": "org.knime.base.node.mine.treeensemble2.node.randomforest.predictor.classification.RandomForestClassificationPredictorNodeFactory2",
+                "successornodename": "Random Forest Predictor"
+            },
+            {
+                "id": "org.knime.base.node.mine.treeensemble2.node.randomforest.predictor.classification.RandomForestClassificationPredictorNodeFactory2",
+                "nodename": "Random Forest Predictor",
+                "nrexecs": 4,
+                "nrfails": 0,
+                "exectime": 14124,
+                "nrcreated": 1,
+                "nrsettingsChanged": 1,
+                "successor": "org.knime.js.base.node.scorer.ScorerNodeFactory",
+                "successornodename": "Scorer (JavaScript)"
+            },
+            {
+                "id": "org.knime.base.node.mine.treeensemble2.node.gradientboosting.learner.classification.GradientBoostingClassificationLearnerNodeFactory2",
+                "nodename": "Gradient Boosted Trees Learner",
+                "nrexecs": 4,
+                "nrfails": 0,
+                "exectime": 17018,
+                "nrcreated": 1,
+                "nrsettingsChanged": 2,
+                "successor": "org.knime.base.node.mine.treeensemble2.node.gradientboosting.predictor.classification.GradientBoostingClassificationPredictorNodeFactory3",
+                "successornodename": "Gradient Boosted Trees Predictor"
+            },
+            {
+                "id": "org.knime.base.node.mine.treeensemble2.node.gradientboosting.predictor.classification.GradientBoostingClassificationPredictorNodeFactory3",
+                "nodename": "Gradient Boosted Trees Predictor",
+                "nrexecs": 4,
+                "nrfails": 0,
+                "exectime": 4207,
+                "nrcreated": 1,
+                "nrsettingsChanged": 1,
+                "successor": "org.knime.js.base.node.scorer.ScorerNodeFactory",
+                "successornodename": "Scorer (JavaScript)"
+            },
+            {
+                "id": "org.knime.xgboost.base.nodes.learner.classification.XGBTreeClassificationLearnerNodeFactory2",
+                "nodename": "XGBoost Tree Ensemble Learner",
+                "nrexecs": 3,
+                "nrfails": 0,
+                "exectime": 4734,
+                "nrcreated": 1,
+                "nrsettingsChanged": 1,
+                "successor": "org.knime.xgboost.base.nodes.predictor.XGBClassificationPredictorNodeFactory",
+                "successornodename": "XGBoost Predictor"
+            },
+            {
+                "id": "org.knime.xgboost.base.nodes.predictor.XGBClassificationPredictorNodeFactory",
+                "nodename": "XGBoost Predictor",
+                "nrexecs": 3,
+                "nrfails": 0,
+                "exectime": 61,
+                "nrcreated": 1,
+                "nrsettingsChanged": 1,
+                "successor": "org.knime.js.base.node.scorer.ScorerNodeFactory",
+                "successornodename": "Scorer (JavaScript)"
+            }
+        ],
+        "metaNodes": {
+        },
+        "wrappedNodes": {
+        },
+        "createdVia": {
+            "JAVA_UI": 17
+        }
+    },
+    "uptime": 9089246,
+    "workflowsOpened": 1,
+    "remoteWorkflowsOpened": 0,
+    "workflowsCreated": 0,
+    "remoteWorkflowsCreated": 0,
+    "columnarStorageWorkflowsOpened": 0,
+    "workflowsImported": 0,
+    "workflowsExported": 0,
+    "webUIPerspectiveSwitches": 0,
+    "javaUIPerspectiveSwitches": 1,
+    "lastUsedPerspective": "none (classic)",
+    "launches": 2,
+    "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
+    "timeSinceLastStart": 15432698,
+    "crashes": 0,
+    "properlyShutDown": true
+}

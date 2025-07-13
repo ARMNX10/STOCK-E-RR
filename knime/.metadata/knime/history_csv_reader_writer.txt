@@ -1,0 +1,3 @@
+D:\AI\Programs\Analytics\15 yr w BUYsig.csv
+D:\AI\Programs\Analytics\BuySignal.csv
+D:\AI\Programs\Analytics\NXPI_5year_data.csv
