@@ -51,7 +51,7 @@ def save_to_csv(df, filename=None):
 if __name__ == "__main__":
     try:
         symbol = "NXPI"
-        years = 5
+        years = 15
         df = get_stock_data(symbol, years)
         print(f"\nFetched {len(df)} days of data for {symbol}")
         print(f"Date range: {df.index.min().date()} to {df.index.max().date()}")
